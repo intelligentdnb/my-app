@@ -1,10 +1,13 @@
-import Nav from "./components/Nav/Nav.jsx";
+import "./App.css"
+import Intelligentheader from "./components/home/header/IntelligentHeader";
+import Home from "./components/home/Home";
+import {Route, Routes} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-    <Nav/>
-    <h1>App</h1>
+    <div>
+      <Home />
+      
     </div>
   );
 }

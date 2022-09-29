@@ -1,0 +1,28 @@
+.intelligentH { /* ESTE SI LE PEGA */
+    height: 60%;
+    margin: 1em;
+}
+
+.my-app {
+    width: auto;
+    height: 93vh;
+    margin: 0.5em auto;
+    color: white;
+}   
+
+.home_container {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.technologies {
+    display: flex;
+    margin-right: 10%;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.022);
+    height: 10%;
+}
+
