@@ -1,8 +1,14 @@
 import React from 'react'
 import IntelligentHeader from './header/IntelligentHeader'
 import "./home.css"
+import {MdHomeMax} from "react-icons/md"
+import {FaWallet} from "react-icons/fa"
+import {MdMessage} from "react-icons/md"
+import {GoMarkGithub} from "react-icons/go"
+import {BsLinkedin} from "react-icons/bs"
 
 const Home = () => {
+
     return (
         <div className='my-app'>
             <IntelligentHeader />
@@ -40,10 +46,23 @@ const Home = () => {
                         <li>
                             <a className="contact" href="/contact">contact me</a>
                         </li>
+                        <li>
+                            <a href='https://www.linkedin.com/in/juan-diego-mas-ca-836710243/' target="__BLANK">linkedln</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/intelligentdnb" target="__BLANK">github</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div className="footer">FOOTER</div>
+            <div className="footer">
+               <a href='/home' ><MdHomeMax /></a>
+                <a href='/portfolio'><FaWallet /></a>
+                <a href='/contact'><MdMessage /></a>
+                <a href="https://github.com/intelligentdnb" target="__BLANK"><GoMarkGithub /></a>
+                <a href='https://www.linkedin.com/in/juan-diego-mas-ca-836710243/' target="__BLANK"><BsLinkedin /></a>
+                <h5>juandiarts@gmail.com</h5>
+            </div>
         </div>
     )
 }

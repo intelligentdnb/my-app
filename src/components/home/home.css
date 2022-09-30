@@ -19,10 +19,20 @@
 .technologies {
     display: flex;
     margin-right: 10%;
+    margin-top: 1.5%;
 }
 
 .footer {
-    background: rgba(255, 255, 255, 0.022);
-    height: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
+.footer a {
+    color: rgb(255, 255, 255);
+    background: rgba(244, 240, 240, 0.028);
+}
+
+.urls a{
+    color: white;
+}
