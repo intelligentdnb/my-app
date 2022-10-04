@@ -22,17 +22,14 @@
     margin-top: 1.5%;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-}
-
-.footer a {
-    color: rgb(255, 255, 255);
-    background: rgba(244, 240, 240, 0.028);
-}
-
-.urls a{
+.urls a {
     color: white;
+}
+
+.front {
+    margin-top: 7%;
+}
+
+.back { 
+    margin-top: 7%;
 }

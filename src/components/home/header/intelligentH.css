@@ -10,3 +10,8 @@
     border-radius: 2%;
     padding-right: 1%;
 }
+
+.headerIcon:hover {
+    background: rgb(255, 255, 255);
+    transition: 1500ms;
+}
