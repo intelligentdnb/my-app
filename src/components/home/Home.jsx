@@ -35,11 +35,6 @@ const Home = () => {
                     </ul>
                     <ul>
                         <li>
-                            <a className="videos" href="/videos">videos</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
                             <a className="contact" href="/contact">contact me</a>
                         </li>
                         <li>
