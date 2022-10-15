@@ -1,9 +1,8 @@
 import "./App.css"
-import Intelligentheader from "./components/home/header/IntelligentHeader";
 import Home from "./components/home/Home";
-import Footer from "./components/footer/Footer";
 import {Route, Routes} from "react-router-dom"
 import Videos from "./components/videos/Videos";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
       <Routes >
         <Route path="/" element={<Home/>} />
         <Route path="/videos" element={<Videos />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
