@@ -50,3 +50,7 @@ input {
 .copy   {
     display: flex;
 }
+
+a {
+    color: white;
+}

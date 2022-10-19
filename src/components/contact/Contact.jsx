@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from '../footer/Footer';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import {AiFillCopy} from "react-icons/ai"
+import {FaDownload} from "react-icons/fa"
 import "./contact.css"
 
 const Contact = () => {
@@ -37,11 +36,18 @@ const Contact = () => {
                 <div className='contact_list_container'>
                     <ul>
                         <p>socials</p>
-                        <li>github</li>
-                        <li>linkedin</li>
+                        <li><a href="https://github.com/intelligentdnb" target="__BLANK">github</a></li>
+                        <li><a href='https://www.linkedin.com/in/juan-diego-mas-ca-836710243/' target="__BLANK">linkedln</a></li>
+                        <br/>
                         <br/>
                         <p>email</p>
                         <li>juandiarts@gmail.com</li>
+                        <br/>
+                        <br/>
+                        <p>curriculum vitae</p>
+                        
+                        <li><a href='' className='cvs'>dowload in spanish</a></li>
+                        <li><a href='' className='cvs'>dowload in english</a></li>
                     </ul>
                 </div>
             </div>
