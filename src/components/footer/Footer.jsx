@@ -13,7 +13,7 @@ const Footer = () => {
             <a href='/portfolio'><FaWallet /></a>
             <a href='/contact'><MdMessage /></a>
             <a href="https://github.com/intelligentdnb" target="__BLANK"><GoMarkGithub /></a>
-            <a href='https://www.linkedin.com/in/juan-diego-mas-ca-836710243/' target="__BLANK"><BsLinkedin /></a>
+            <a href='https://www.linkedin.com/in/juandimca/' target="__BLANK"><BsLinkedin /></a>
             <h5>juandiarts@gmail.com</h5>
         </div>
     )

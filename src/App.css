@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +8,8 @@
 body {
     background: url("./assets/michelangelobackground.png");
     background-position: center;
-
+    width: auto;
+    height: 93vh;
  }
-
 
 
